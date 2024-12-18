@@ -60,7 +60,7 @@ function App() {
     editor.classList.remove('height')
   }
 
-  const bxCollpaseOne = () => {
+  const bxCollapseOne = () => {
     bxExpand[1].classList.remove('hide');
     bxCollapse[1].classList.add('hide');
     wrapper[0].classList.remove('hide');
@@ -77,7 +77,7 @@ function App() {
       </div>
       <div className="preview-wrapper wrapper">Preview
       <i class='bx bx-expand' onClick={bxExpandOne}></i>
-      <i class='bx bx-collapse-alt hide' onClick={bxCollpaseOne}></i>
+      <i class='bx bx-collapse-alt hide' onClick={bxCollapseOne}></i>
         <div 
         id="preview"
         dangerouslySetInnerHTML = {{
